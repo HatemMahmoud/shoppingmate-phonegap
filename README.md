@@ -1,0 +1,2 @@
+shoppingmate-phonegap
+=====================
