@@ -10,11 +10,12 @@
   <body>
     <div data-role="page">
       <div id="header" data-role="header" data-position="fixed">
+        <a href="#left-panel" data-icon="bars" data-iconpos="notext" data-shadow="false" data-iconshadow="false" class="ui-icon-nodisc">Menu</a>
         <h1>Supermarket List</h1>
       </div>
-      <div data-role="content">
+      <div data-role="content" data-theme="c">
         <form>
-          <label for="new_item" class="ui-hidden-accessible">Text input:</label>
+          <label for="new_item" class="ui-hidden-accessible">New item:</label>
           <input id="new_item" type="text" placeholder="New item...">
           <fieldset data-role="controlgroup">
             <input id="item_1" type="checkbox">
@@ -34,9 +35,19 @@
           </fieldset>
         </form>
       </div>
+      <div data-role="panel" id="left-panel" data-theme="a">
+        <ul data-role="listview" data-inset="true" data-theme="c" data-divider-theme="a" data-count-theme="c">
+          <input id="new_list" type="text" placeholder="New list...">
+          <li><a href="#header" data-rel="close">Party <span class="ui-li-count">5</span></a></li>
+          <li class="ui-btn-down-c"><a href="#header" data-rel="close">Supermarket <span class="ui-li-count">7</span></a></li>
+          <li><a href="#header" data-rel="close">Clothes <span class="ui-li-count">4</span></a></li>
+          <li><a href="#header" data-rel="close">Groceries <span class="ui-li-count">9</span></a></li>
+          <li><a href="#header" data-rel="close">Weekend <span class="ui-li-count">2</span></a></li>
+        </ul>
+      </div>
     </div>
     <script src="cordova-2.7.0.js"></script>
-    <script src="js/jquery-2.0.0.min.js"></script>
+    <script src="js/jquery-1.9.1.min.js"></script>
     <script src="js/jquery.mobile-1.3.1.min.js"></script>
   </body>
 </html>
