@@ -1,2 +1,2 @@
-shoppingmate-phonegap
-=====================
+Shopping Mate - PhoneGap
+========================

@@ -6,10 +6,10 @@
         id        = "com.phonegap.hello-world"
         version   = "0.1">
 
-    <name>ShoppingMate</name>
+    <name>Shopping Mate</name>
 
     <description>
-        ShoppingMate shopping mobile application.
+        Shopping Mate shopping mobile application.
     </description>
 
     <author href="http://www.expressionlab.com" email="hatem@expressionlab.com">
